@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unequal Grid Layout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <style>
+        .custom-box {
+            padding: 20px;
+            background: #f8f9fa;
+            border: 2px solid #ddd;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .tall-box {
+            height: 300px;
+        }
+
+        .short-box {
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Unequal Grid Basic</h1>
+
+        <div class="row mt-4">
+            <div class="col-md-2 short-box custom-box bg-success text-white">Short</div>
+            <div class="col-md-6 tall-box custom-box bg-warning text-dark">Taller</div>
+            <div class="col-md-14 short-box custom-box bg-danger text-white">Tiny</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
